@@ -1,0 +1,12 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;;
+  mix-blend-mode: normal;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+/* @keyframes (min-width: 412px) and (max-width: 914px) {
+    flex:d
+} */

@@ -1,0 +1,135 @@
+.dashboard-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; 
+  }
+  
+  .dashboard-inner-container {
+    position: relative; 
+    width: 360px;
+    height: 748px;
+    background-color: black;
+    border-radius: 28px;
+  }
+
+.form-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    color: white;
+    gap: 18px;
+    overflow-x: hidden;
+}
+
+.upper-text{
+    color: #36A546;
+    letter-spacing: 0.02px;
+    transform: translateY(-10%);
+}
+
+.input-field-1{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color : #1F191966;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.input-field-1 input{
+    height: 42px;
+    width: 238px; 
+    border-radius: 80px;
+    /* color: #fff; */
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+
+.input-field-1 input::placeholder{
+    position: absolute;
+    left: 8%;
+    font-size: 16px;
+    color: rgb(165, 164, 164);
+}
+
+/* .input-field-2{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color : #1F191966;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+} */
+
+.input-field-2 input{
+    height: 42px;
+    width: 238px; 
+    border-radius: 80px;
+    color: #fff;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+
+.input-field-2 input::placeholder{
+    position: absolute;
+    left: 8%;
+    font-size: 16px;
+    color: rgb(165, 164, 164);
+}
+
+
+button{
+    margin-top: 20px;
+    border: none;
+    width: 260px;
+    height: 48px;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat;
+    border: 2px solid #8CFF0026;
+    opacity: 1;
+    mix-blend-mode: normal;
+    text-align: center;
+    border-radius: 80px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF8C;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.forgot-pwd{
+    margin-top: 15px;
+    color: #36A546;
+    text-align: center;
+    letter-spacing: 0.02px;
+    width: 143px;
+    height: 19px;
+}
+
+.mon{
+    text-align: left;
+    font: normal normal normal 12px/16px Mulish;
+    letter-spacing: 0.01px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 49px;
+    margin-left: 31px;
+    
+}
